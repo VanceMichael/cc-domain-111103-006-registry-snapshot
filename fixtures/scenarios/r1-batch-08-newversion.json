@@ -1,0 +1,19 @@
+{
+  "registry": "registry-one",
+  "source": "primary",
+  "package": "synthetic:lib-a",
+  "batch_id": "r1-b08",
+  "observed_at": "2026-11-10T16:00:00Z",
+  "complete": false,
+  "releases": [
+    {
+      "name": "synthetic:lib-a",
+      "version": "1.10.0",
+      "event": "release",
+      "revision": 12,
+      "artifact_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "artifact_length": 2000,
+      "download_url": "https://dl.example.invalid/lib-a/1.10.0"
+    }
+  ]
+}

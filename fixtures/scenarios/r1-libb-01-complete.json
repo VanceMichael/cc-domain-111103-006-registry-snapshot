@@ -1,0 +1,27 @@
+{
+  "registry": "registry-one",
+  "source": "primary",
+  "package": "synthetic:lib-b",
+  "batch_id": "r1-c01",
+  "observed_at": "2026-11-10T10:00:00Z",
+  "complete": true,
+  "revision": 1,
+  "releases": [
+    {
+      "name": "synthetic:lib-b",
+      "version": "3.1.0",
+      "event": "release",
+      "revision": 1,
+      "artifact_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "artifact_length": 800
+    },
+    {
+      "name": "synthetic:lib-b",
+      "version": "3.2.0",
+      "event": "release",
+      "revision": 1,
+      "artifact_sha256": "e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e0",
+      "artifact_length": 900
+    }
+  ]
+}

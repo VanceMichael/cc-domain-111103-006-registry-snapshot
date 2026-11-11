@@ -1,0 +1,17 @@
+{
+  "registry": "registry-one",
+  "source": "primary",
+  "package": "synthetic:lib-a",
+  "batch_id": "r1-b09",
+  "observed_at": "2026-11-10T17:00:00Z",
+  "complete": false,
+  "releases": [
+    {
+      "name": "synthetic:lib-a",
+      "version": "1.10.0",
+      "event": "deprecate",
+      "revision": 13,
+      "reason": "不再维护，请迁移到 2.x"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "registry": "registry-two",
+  "source": "primary",
+  "package": "synthetic:lib-a",
+  "batch_id": "r2-b01",
+  "observed_at": "2026-11-10T10:05:00Z",
+  "complete": true,
+  "revision": 1,
+  "releases": [
+    {
+      "name": "synthetic:lib-a",
+      "version": "1.0.0",
+      "event": "release",
+      "revision": 1,
+      "artifact_sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "artifact_length": 500
+    },
+    {
+      "name": "synthetic:lib-a",
+      "version": "2.0.0",
+      "event": "release",
+      "revision": 1,
+      "artifact_sha256": "f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0f0",
+      "artifact_length": 600
+    }
+  ]
+}

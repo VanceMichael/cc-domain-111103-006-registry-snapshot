@@ -1,0 +1,18 @@
+{
+  "registry": "registry-one",
+  "source": "primary",
+  "package": "synthetic:lib-b",
+  "batch_id": "r1-c02",
+  "observed_at": "2026-11-10T11:00:00Z",
+  "complete": false,
+  "releases": [
+    {
+      "name": "synthetic:lib-b",
+      "version": "3.1.0",
+      "event": "release",
+      "revision": 2,
+      "artifact_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "artifact_length": 800
+    }
+  ]
+}

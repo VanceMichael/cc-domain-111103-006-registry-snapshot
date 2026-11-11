@@ -1,0 +1,19 @@
+{
+  "registry": "registry-one",
+  "source": "cache-mirror",
+  "package": "synthetic:lib-a",
+  "batch_id": "r1-b03",
+  "observed_at": "2026-11-10T12:00:00Z",
+  "complete": false,
+  "releases": [
+    {
+      "name": "synthetic:lib-a",
+      "version": "2.0.0",
+      "event": "release",
+      "revision": 5,
+      "artifact_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "artifact_length": 1200,
+      "download_url": "https://cache.example.invalid/lib-a/2.0.0"
+    }
+  ]
+}

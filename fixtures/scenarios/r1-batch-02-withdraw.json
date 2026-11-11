@@ -1,0 +1,28 @@
+{
+  "registry": "registry-one",
+  "source": "primary",
+  "package": "synthetic:lib-a",
+  "batch_id": "r1-b02",
+  "observed_at": "2026-11-10T11:00:00Z",
+  "complete": true,
+  "revision": 7,
+  "releases": [
+    {
+      "name": "synthetic:lib-a",
+      "version": "1.9.0",
+      "event": "release",
+      "revision": 3,
+      "artifact_sha256": "5f0531dcd86b1b7cf9bbeae6b494bd0c6f670dd96618b45ed662535d143e76b9",
+      "artifact_length": 70,
+      "download_url": "https://dl.example.invalid/lib-a/1.9.0",
+      "signature": {"algorithm": "ed25519", "value": "sig-1a"}
+    },
+    {
+      "name": "synthetic:lib-a",
+      "version": "2.0.0",
+      "event": "withdraw",
+      "revision": 7,
+      "reason": "上游安全撤回"
+    }
+  ]
+}
